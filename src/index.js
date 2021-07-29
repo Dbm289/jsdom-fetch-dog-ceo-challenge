@@ -5,10 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function fetchImg(){
-    const imgUrl = 'https://dog.ceo/api/breeds/image/random/4'
-    fetch(imgUrl)
-    .then(response => response.json())
-    .then(json => addImageElements(json))
+    console.log('fetching!')
 }
 
 
